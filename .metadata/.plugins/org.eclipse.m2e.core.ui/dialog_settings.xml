@@ -2,6 +2,8 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBootB13P1"/>
+			<item value="D:\ConveyLabOnline\SpringBootWS-2\Spring-BootB15P1"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBoot-H2DB-B14"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\Spring-Boot-ResetB15"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\Spring-Boot-Example-WebB14"/>
