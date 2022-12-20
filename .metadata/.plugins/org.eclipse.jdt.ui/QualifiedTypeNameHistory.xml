@@ -15,12 +15,14 @@
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
+<fullyQualifiedTypeName name="com.xyz.SpringBootB15Rest.IProductService"/>
+<fullyQualifiedTypeName name="com.example.springbooth2B15.repository.StudentRepository"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.IProductService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="com.xyz.SpringBootB15Rest.IProductService"/>
+<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.ProductService"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="com.example.springbooth2B15.repository.StudentRepository"/>
 </qualifiedTypeNameHistroy>
