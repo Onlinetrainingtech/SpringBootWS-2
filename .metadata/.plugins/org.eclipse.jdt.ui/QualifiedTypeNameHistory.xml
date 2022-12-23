@@ -2,7 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
 <fullyQualifiedTypeName name="com.xyz.springbootrestexampleB12.IProductService"/>
-<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="com.xyz.springbooth2B12.model.Student"/>
 <fullyQualifiedTypeName name="com.xyz.springbooth2B12.repository.StudentRepository"/>
 <fullyQualifiedTypeName name="org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler"/>
@@ -11,18 +10,21 @@
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
 <fullyQualifiedTypeName name="java.lang.Override"/>
 <fullyQualifiedTypeName name="com.example.SpringBootResetB15.IProductService"/>
+<fullyQualifiedTypeName name="com.xyz.SpringBootB15Rest.IProductService"/>
+<fullyQualifiedTypeName name="com.example.springbooth2B15.repository.StudentRepository"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.IProductService"/>
+<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.ProductService"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
 <fullyQualifiedTypeName name="javax.persistence.Table"/>
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
-<fullyQualifiedTypeName name="com.xyz.SpringBootB15Rest.IProductService"/>
-<fullyQualifiedTypeName name="com.example.springbooth2B15.repository.StudentRepository"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.IProductService"/>
 <fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="com.example.springbootrestexampleB13.ProductService"/>
+<fullyQualifiedTypeName name="com.example.springbooth2exampleB13.repository.StudentRepository"/>
+<fullyQualifiedTypeName name="com.example.springbooth2exampleB13.model.Student"/>
 <fullyQualifiedTypeName name="java.util.List"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
 </qualifiedTypeNameHistroy>
