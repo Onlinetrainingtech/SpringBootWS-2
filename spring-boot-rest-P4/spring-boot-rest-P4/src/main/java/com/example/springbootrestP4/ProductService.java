@@ -8,11 +8,11 @@ import org.springframework.stereotype.Service;
 @Service
 public class ProductService implements IProductService
 {
-
+	ArrayList<Product>products=new ArrayList<>();
 	@Override
 	public List<Product> findAll() {
 		
-		ArrayList<Product>products=new ArrayList<>();
+		
 		
 		//add products to the list
 		
@@ -21,6 +21,10 @@ public class ProductService implements IProductService
 		products.add(new Product(102,"mobilee3","mobile6",3000.0,8));
 		products.add(new Product(103,"mobilee4","mobile7",4000.0,9));
 		
+		return products;
+	}
+	public List<Product> findById(int id)
+	{
 		return products;
 	}
 
