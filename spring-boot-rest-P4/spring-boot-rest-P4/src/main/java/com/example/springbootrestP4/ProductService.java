@@ -23,9 +23,34 @@ public class ProductService implements IProductService
 		
 		return products;
 	}
-	public List<Product> findById(int id)
-	{
-		return products;
+	//Reterive based on index
+	@Override
+	public Product findById(int id) {
+		// TODO Auto-generated method stub
+		return products.get(id);
 	}
+ 
+	//Reterive based on id value
+	public Product findBy(int id)  
+	{  
+	for(Product p1:products)  
+	{  
+	if(p1.getId()==id)  
+	return p1;  
+	}  
+	return null;  
+	}  
+	
+	//Reterive based on name value
+	public Product findbyname(String name)  
+	{  
+	for(Product p1:products)  
+	{  
+	if(p1.getName().equals(name))  
+	return p1;  
+	}  
+	return null;  
+	}  
+	
 
 }

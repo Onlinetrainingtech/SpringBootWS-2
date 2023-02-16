@@ -22,11 +22,21 @@ public class ProductController
 	   List<Product>products=p1.findAll();
 	   return products;
    }
-   @GetMapping(path="/product/{id}")  
-   public  List<Product> getSpecificId(@PathVariable int id)  
-   {  
-	   List<Product>products=p1.findById(id);
-        return products; //%s replace the name  
-   }  
+//   @GetMapping(path="/product/{id}")  
+//   public  Product getSpecificId(@PathVariable int id)  
+//   {  
+//	  return p1.findById(id); 
+//   }  
+   @GetMapping(path="product/{name}")
+   public Product getSpecificName(@PathVariable String name)
+   {
+	   return p1.findbyname(name);
+   }
+   
+//   @GetMapping(path="/product/{id}")  
+//   public  Product getSpecificIds(@PathVariable int id)  
+//   {  
+//	  return p1.findBy(id); 
+//   }
   }  
 

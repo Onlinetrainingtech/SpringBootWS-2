@@ -5,5 +5,6 @@ import java.util.List;
 public interface IProductService
 {
    List<Product>findAll();
-   public List<Product> findById(int id);
+   public Product findById(int id);
+   
 }

@@ -1,5 +1,7 @@
 package com.example.springbootrestP4;
 
+import java.util.List;
+
 public class Product
 {
    private int id;
@@ -50,4 +52,10 @@ public Product(int id, String name, String batchno, double price, int noofproduc
    {
 	   
    }
+   public String toString()   
+   {  
+    
+   return String.format("Product [id=%s, name=%s", id, name);  
+   }  
+   
 }
