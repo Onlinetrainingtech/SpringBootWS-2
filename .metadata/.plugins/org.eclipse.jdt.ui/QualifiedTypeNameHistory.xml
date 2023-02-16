@@ -28,15 +28,17 @@
 <fullyQualifiedTypeName name="com.xyz.SpringBootRestP3.IProductService"/>
 <fullyQualifiedTypeName name="com.example.SpringBootTestP1.Arithmetic"/>
 <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
-<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
-<fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
-<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RequestMapping"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="com.example.springbootrestP4.IProductService"/>
 <fullyQualifiedTypeName name="com.example.springbootrestP4.Product"/>
 <fullyQualifiedTypeName name="com.example.springbootrestP4.ProductService"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="com.example.SpringRestExampleP5.IEmployeeService"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
+<fullyQualifiedTypeName name="com.example.SpringRestExampleP5.EmployeeService"/>
 </qualifiedTypeNameHistroy>
