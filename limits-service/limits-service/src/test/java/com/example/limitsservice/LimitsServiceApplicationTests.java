@@ -1,10 +1,10 @@
-package com.example.MicroServiceP1;
+package com.example.limitsservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MicroServiceP1ApplicationTests {
+class LimitsServiceApplicationTests {
 
 	@Test
 	void contextLoads() {

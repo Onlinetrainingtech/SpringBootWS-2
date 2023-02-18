@@ -12,31 +12,31 @@ import org.springframework.web.bind.annotation.RestController;
 public class ProductController
 {
    @Autowired
-   //private IProductService p1;
-   private ProductService p1;
+   //private IProductService productService;
+   private ProductService productService;
 
    
    @GetMapping(value="/product")
    public List<Product>getProduct()
    {
-	   List<Product>products=p1.findAll();
+	   List<Product>products=productService.findAll();
 	   return products;
    }
 //   @GetMapping(path="/product/{id}")  
 //   public  Product getSpecificId(@PathVariable int id)  
 //   {  
-//	  return p1.findById(id); 
+//	  return productService.findById(id); 
 //   }  
    @GetMapping(path="product/{name}")
    public Product getSpecificName(@PathVariable String name)
    {
-	   return p1.findbyname(name);
+	   return productService.findbyname(name);
    }
    
 //   @GetMapping(path="/product/{id}")  
 //   public  Product getSpecificIds(@PathVariable int id)  
 //   {  
-//	  return p1.findBy(id); 
+//	  return productService.findBy(id); 
 //   }
   }  
 

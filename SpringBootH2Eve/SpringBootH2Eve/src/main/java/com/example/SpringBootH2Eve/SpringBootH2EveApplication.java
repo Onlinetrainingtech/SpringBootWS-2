@@ -1,13 +1,13 @@
-package com.example.MicroServiceP1;
+package com.example.SpringBootH2Eve;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicroServiceP1Application {
+public class SpringBootH2EveApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroServiceP1Application.class, args);
+		SpringApplication.run(SpringBootH2EveApplication.class, args);
 	}
 
 }
