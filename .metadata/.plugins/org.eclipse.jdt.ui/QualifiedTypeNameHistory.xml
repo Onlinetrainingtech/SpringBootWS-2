@@ -27,9 +27,7 @@
 <fullyQualifiedTypeName name="com.example.springbootrestP4.IProductService"/>
 <fullyQualifiedTypeName name="com.example.springbootrestP4.Product"/>
 <fullyQualifiedTypeName name="com.example.springbootrestP4.ProductService"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
 <fullyQualifiedTypeName name="com.example.SpringRestExampleP5.IEmployeeService"/>
-<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
 <fullyQualifiedTypeName name="org.springframework.web.bind.annotation.PathVariable"/>
 <fullyQualifiedTypeName name="com.example.SpringRestExampleP5.EmployeeService"/>
 <fullyQualifiedTypeName name="javax.persistence.Entity"/>
@@ -39,8 +37,15 @@
 <fullyQualifiedTypeName name="org.springframework.data.repository.CrudRepository"/>
 <fullyQualifiedTypeName name="org.springframework.stereotype.Service"/>
 <fullyQualifiedTypeName name="com.example.SpringBootH2Eve.repository.StudentRepository"/>
-<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="com.example.SpringBootH2Eve.model.Student"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.RestController"/>
+<fullyQualifiedTypeName name="org.springframework.web.bind.annotation.GetMapping"/>
+<fullyQualifiedTypeName name="com.example.limitsservice.bean.LimitConfiguration"/>
+<fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+<fullyQualifiedTypeName name="org.springframework.boot.context.properties.ConfigurationProperties"/>
+<fullyQualifiedTypeName name="org.springframework.beans.factory.annotation.Autowired"/>
+<fullyQualifiedTypeName name="com.example.limitsservice.Configuration"/>
+<fullyQualifiedTypeName name="org.springframework.cloud.config.server.EnableConfigServer"/>
 </qualifiedTypeNameHistroy>
