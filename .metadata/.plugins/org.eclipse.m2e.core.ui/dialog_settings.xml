@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\ConveyLabOnline\SpringBootWS-2\H2SpringBoot-main"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\spring-cloud-config-server"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\limits-service"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\limit-service"/>
@@ -16,7 +17,6 @@
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringH2DBP4"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBootRestP3"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringP2Web"/>
-			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringP1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

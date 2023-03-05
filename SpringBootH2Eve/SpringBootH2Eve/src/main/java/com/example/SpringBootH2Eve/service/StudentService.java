@@ -20,7 +20,7 @@ public class StudentService
 	public List<Student>getAllStudent()
 	{
 		List<Student>students=new ArrayList<Student>();
-		//studentRepository.findAll().forEach(student>students.add(student));
+		studentRepository.findAll().forEach(student -> students.add(student));  
 		
 		return students;
 	}
