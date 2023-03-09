@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="D:\ConveyLabOnline\SpringBootWS-2\currency-exchange-service"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\spring-boot-restN3"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBootN2"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBootN1"/>
@@ -16,7 +17,6 @@
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\spring-boot-rest-P4"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringA2"/>
 			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringA1"/>
-			<item value="D:\ConveyLabOnline\SpringBootWS-2\SpringBootTestP1"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
