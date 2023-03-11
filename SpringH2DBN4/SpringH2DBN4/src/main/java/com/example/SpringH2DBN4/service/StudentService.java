@@ -1,0 +1,52 @@
+package com.example.SpringH2DBN4.service;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.SpringH2DBN4.model.Student;
+import com.example.SpringH2DBN4.repository.StudentRepository;
+
+@Service
+public class StudentService
+{
+	@Autowired
+	StudentRepository studentRepository;
+	
+	//getting all the student data
+	
+	public List<Student>getAllStudent()
+	{
+		List<Student>students=new ArrayList<Student>();
+		
+		studentRepository.findAll().forEach(student->students.add(student));
+		return students;
+	}
+	//getting a specific record
+	public Student getStudentById(int id)
+	{
+		return studentRepository.findById(id).get();
+	}
+	
+	//save your data
+	
+	public void SaveOrUpdate(Student student)
+	{
+		studentRepository.save(student);
+	}
+	//deleting the specific data
+	
+	public void delete(int id)
+	{
+		studentRepository.deleteById(id);
+	}
+	
+	//update the data
+	
+	public void update(Student student,int id)
+	{
+		studentRepository.save(student);
+	}
+}
